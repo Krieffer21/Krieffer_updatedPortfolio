@@ -1,0 +1,64 @@
+body { 
+    background-color: #6c88a5;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+}
+
+.card-header {
+    background: #9da5b3;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Gotu', sans-serif;
+}
+
+a {
+    color: black;
+    font-family: 'Gotu', sans-serif;
+}
+
+p {
+    text-align: left;
+    margin: 10px;
+    font-family: 'Gotu', sans-serif;
+}
+
+.form-group {
+    text-align: left;
+    background-color: #d6d6d6;
+}
+
+.card-body {
+    align-self: auto;
+}
+
+.card img{
+    float: left;
+    display: block;
+    padding: 20px;
+    max-width: 250px;
+}
+
+.btn-primary {
+    background-color: #343a40;
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+
+}
+.form-group {
+    align-self: center;
+    text-align: left;
+}
+
+.card { 
+    margin: 50px;
+    align-content: center;
+}
+
+footer {
+    align-content: center;
+}
