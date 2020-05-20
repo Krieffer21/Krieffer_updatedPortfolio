@@ -6,48 +6,32 @@
     <link rel="stylesheet" href="./Assets/style.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+
+    <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Gotu&display=swap"
-        rel="stylesheet">
 
     <title>About Me</title>
-
-    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="./index.html" >Kaelyn Rieffer</a>
+    
+    <nav class="sticky-top">
+        <div id="topNav">
+            <a id="name" class="navbar-brand " href="./index.html" >Kaelyn Rieffer</a>
+            <a class="navbar-brand" href="./about.html">About</a>
+            <a class="navbar-brand" href="./portfolio.html">Portfolio</a>
+            <a class="navbar-brand" href="./contact.html">Contact</a>
         </div>
-    </header>
-
-    <nav>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="./index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
-        </ul>
     </nav>
+
 </head>
 
-<body>
-    <section class="container" style="text-align: center;">
-        <article class="card">
-            <header class="card-header">
-                About Me
-            </header>
-            <main class="card-body">
-                <img src="./myimages/IMG_20180226_202959_616.jpg" class="card-img-top" alt="picture of Kaelyn Rieffer">
-                <p class="card-text">
+<body id="body">
+        <container class="about">
+            <h1> About Me </h1>
+            
+                <img class="meimg" src="./Images/IMG_20180226_202959_616.jpg" alt="picture of Kaelyn Rieffer">
+                <p class="meText">
                     I am a native Tucsonan and art is my passion. I have experience with ceramics, graphic design photography and painting. Recently I have been focused on painting specifically with watercolors. 
-                </p>
-            </main>
-        </article>
-    </section>
+                </p> 
+        </container>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -63,9 +47,8 @@
 </body>
 
 <!-- my footer needs to be adjusted for mobile still -->
-<footer
-     class="navbar fixed-bottom navbar-dark bg-dark">
-        
-    <a class="navbar-brand" href="./contact.html">
-        Contact ~ Email: Kaelynrieffer@gmail.com ~ Instagram: teacup211</a>
-</footer>
+<!-- <footer        
+    <a class= href="./contact.html">
+        <p> ~ Email: Kaelynrieffer@gmail.com ~ Instagram: teacup211</p>
+    </a>
+</footer> -->
