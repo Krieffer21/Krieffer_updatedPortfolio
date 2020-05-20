@@ -23,22 +23,25 @@ h1 {
 
 #name {
     color: #E2B4BD;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: cursive;
     font-weight: bold;
     margin: 20px;
+    padding: 20px;
+text-align: left;
 }
 
 .navbar-brand {
     font-size: large;
     color: #e6e6e6;
     margin: 10px;
+    text-align: right;
 }
 
 #topNav{
     background-color: #3B464A;
     width: 100%;
-    padding: 30px;
+    padding: 20px;
 }
 
 #body {
@@ -46,4 +49,5 @@ h1 {
 }
 
 .sticky-top {
+    text-align: center;
 }
