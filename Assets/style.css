@@ -51,3 +51,35 @@ text-align: left;
 .sticky-top {
     text-align: center;
 }
+
+.container {
+    padding: 20px;
+    align-self: center;
+    outline-width: 2px;
+    
+}
+
+.card {
+    margin: 10px;
+    padding: 20px;
+}
+
+.card-header {
+    border: #3b464a;
+    background-color: #3b464a;
+    color: #e6e6e6;
+}
+
+.form-group {
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+    background-color: #666F76;
+}
+.btn-primary {
+border-color: #666F76;
+}
