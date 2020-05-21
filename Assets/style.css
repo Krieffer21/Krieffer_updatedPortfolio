@@ -1,18 +1,17 @@
 #about {
-    margin: 10px;
+margin: 30px;
+padding: 10px;
+background-color: #e6e6e6;
+border-radius: 2px;
+outline-color:  #666F76;
+outline-style: solid;
 } 
 
 .meimg {
 max-width: 40%;
 height: auto;
 margin: 10px;
-float: left;
 padding: 10px;
-}
-
-h1 {
-    text-align: center;
-    font-size: large;
 }
 
 .meText {
@@ -41,7 +40,7 @@ text-align: left;
 #topNav{
     background-color: #3B464A;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 #body {
@@ -55,13 +54,13 @@ text-align: left;
 .container {
     padding: 20px;
     align-self: center;
-    outline-width: 2px;
-    
+    outline-width: 2px;    
 }
 
 .card {
     margin: 10px;
     padding: 20px;
+   background-color: #e6e6e6;
 }
 
 .card-header {
@@ -82,4 +81,36 @@ text-align: left;
 }
 .btn-primary {
 border-color: #666F76;
+}
+
+.card-body {
+    background-color: #e6e6e6;
+text-align: left;}
+
+#portfolio {
+margin: 10px;
+padding: 10px;
+text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: large;
+}
+.port {
+background-color: #e6e6e6;
+border-radius: 2px;
+outline-color:  #666F76;
+outline-style: solid;
+}
+#links {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.link {
+background-color: #e6e6e6;
+border-radius: 2px;
+outline-color:  #666F76;
+outline-style: solid;
 }
