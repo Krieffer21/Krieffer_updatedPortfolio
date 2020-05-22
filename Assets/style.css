@@ -23,7 +23,7 @@
 #name {
     color: #E2B4BD;
     font-size: xx-large;
-    font-family: cursive;
+    font-family: 'Satisfy', cursive;;
     font-weight: bold;
     margin: 20px;
     padding: 20px;
@@ -45,10 +45,12 @@
 
 #body {
     background-color: #9da9b3;
+    font-family: 'Poppins', sans-serif;;
 }
 
 .sticky-top {
     text-align: center;
+    font-family: 'Lora', serif;;
 }
 
 .container {
