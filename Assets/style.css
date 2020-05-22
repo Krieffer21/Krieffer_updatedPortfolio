@@ -66,7 +66,8 @@ text-align: left;
 .card-header {
     border: #3b464a;
     background-color: #3b464a;
-    color: #e6e6e6;
+    color: #E2B4BD;
+    font-size: larger;
 }
 
 .form-group {
@@ -84,7 +85,7 @@ border-color: #666F76;
 }
 
 .card-body {
-    background-color: #e6e6e6;
+background-color: #e6e6e6;
 text-align: left;}
 
 #portfolio {
@@ -117,4 +118,14 @@ outline-style: solid;
 .lyrics {
     width: 25%;
     height: auto;
+}
+.footA {
+margin: 20px;
+color: #e6e6e6;
+text-align: center;
+}
+.cont {
+color: #e6e6e6;
+padding-left: 10px;  
+font-size: medium;
 }
