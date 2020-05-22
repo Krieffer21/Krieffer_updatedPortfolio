@@ -1,18 +1,17 @@
 #about {
-    margin: 10px;
+    margin: 30px;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    outline-color:  #666F76;
+    outline-style: solid;
 } 
 
 .meimg {
-max-width: 40%;
-height: auto;
-margin: 10px;
-float: left;
-padding: 10px;
-}
-
-h1 {
-    text-align: center;
-    font-size: large;
+    width: 80%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
 }
 
 .meText {
@@ -24,11 +23,11 @@ h1 {
 #name {
     color: #E2B4BD;
     font-size: xx-large;
-    font-family: cursive;
+    font-family: 'Satisfy', cursive;;
     font-weight: bold;
     margin: 20px;
     padding: 20px;
-text-align: left;
+    text-align: left;
 }
 
 .navbar-brand {
@@ -41,13 +40,103 @@ text-align: left;
 #topNav{
     background-color: #3B464A;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 #body {
     background-color: #9da9b3;
+    font-family: 'Poppins', sans-serif;;
 }
 
 .sticky-top {
     text-align: center;
+    font-family: 'Lora', serif;;
+}
+
+.container {
+    padding: 20px;
+    align-self: center;
+    outline-width: 2px;    
+}
+
+.port {
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    outline-color:  #666F76;
+    outline-style: solid;
+    padding: 10px;
+}
+
+.card {
+    margin: 10px;
+    padding: 20px;
+    background-color: #e6e6e6;
+}
+
+.card-header {
+    border: #3b464a;
+    background-color: #3b464a;
+    color: #E2B4BD;
+    font-size: larger;
+}
+
+.form-group {
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+    background-color: #666F76;
+}
+.btn-primary {
+    border-color: #666F76;
+}
+
+.card-body {
+    background-color: #e6e6e6;
+    text-align: left;
+}
+
+.portfolio {
+    text-align: center;
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: large;
+}
+
+#links {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.link {
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    outline-color:  #666F76;
+    outline-style: solid;
+}
+
+.project {
+    width: 80%;
+    height: auto;
+    padding: 15px;
+}
+
+.footA {
+    margin: 20px;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+.cont {
+    color: #e6e6e6;
+    padding-left: 10px;  
+    font-size: medium;
 }
