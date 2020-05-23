@@ -5,10 +5,10 @@
 
 ## Scrennshot
 
-[]!()
+![]()
 
 ## Portfolio gif
   The gif below shows my deployed portfolio functioning. I have added links and added works to my portfolio. 
   Deployed link: https://krieffer21.github.io/Krieffer_updatedPortfolio/
   
-  []!()
+ ![]()
