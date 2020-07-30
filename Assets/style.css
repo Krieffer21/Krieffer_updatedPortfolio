@@ -5,6 +5,7 @@
     border-radius: 2px;
     outline-color:  #666F76;
     outline-style: solid;
+    align-self: auto;
 } 
 
 .meimg {
@@ -51,6 +52,7 @@
 .sticky-top {
     text-align: center;
     font-family: 'Lora', serif;;
+    width: 100%;
 }
 
 .container {
@@ -140,4 +142,8 @@ h1 {
     color: #e6e6e6;
     padding-left: 10px;  
     font-size: medium;
+}
+
+#box {
+    margin: 10px;
 }
